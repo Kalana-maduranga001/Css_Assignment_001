@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IJSE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        
+        body{
+                 overflow: hidden;
+            }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: white;
+            border-bottom: 2px solid black;
+        }
+
+        .header img {
+            height: 50px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #3b0650;
+            color: white;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .sidebar h2 {
+            margin: 20px 0;
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .image-section {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .image-section img {
+            width: 30%;
+            border: 2px solid green;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+        }
+
+        .footer {
+            background-color: gray;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: -150px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <img src="image/logo.png" alt="IJSE Logo">
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contacts</a>
+        <a href="#">About Us</a>
+    </div>
+</div>
+
+<!-- Sidebar and Main Content -->
+<div class="container">
+    <div class="sidebar">
+        <h2>Home</h2>
+        <h2>Services</h2>
+        <h2>Contacts</h2>
+        <h2>About Us</h2>
+    </div>
+
+    <div class="main-content">
+        <div class="image-section">
+            <img src="Video/monkey.gif" alt="Monkey GIF">
+            <img src="Video/monkey.gif" alt="Monkey GIF">
+            <img src="Video/monkey.gif" alt="Monkey GIF">
+        </div>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nemo culpa illum, eum ea hic autem suscipit,
+             quas modi provident, beatae unde cumque et ipsam quasi iste. Aspernatur, debitis minus?
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nemo culpa illum, eum ea hic autem suscipit,
+            quas modi provident, beatae unde cumque et ipsam quasi iste. Aspernatur, debitis minus?
+       </p>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nemo culpa illum, eum ea hic autem suscipit,
+        quas modi provident, beatae unde cumque et ipsam quasi iste. Aspernatur, debitis minus?
+       </p>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nemo culpa illum, eum ea hic autem suscipit,
+        quas modi provident, beatae unde cumque et ipsam quasi iste. Aspernatur, debitis minus?
+      </p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nemo culpa illum, eum ea hic autem suscipit,
+        quas modi provident, beatae unde cumque et ipsam quasi iste. Aspernatur, debitis minus?
+     </p>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <strong>Developed By IJSE</strong>
+</div>
+
+</body>
+</html>
